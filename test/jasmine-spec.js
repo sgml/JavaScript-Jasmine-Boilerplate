@@ -1,21 +1,24 @@
-describe("Given my code", function () {
-	
-	beforeEach(function () {
-		/* ... Set up your object ... */
-	});
-	
-	afterEach(function () {
-		/* ... Tear it down ... */
-	});
-	
-	describe("When ...", function () {
-		
-		beforeEach(function () {
-			
-		});
-		
-		it("Then...", function () {
-			expect(true).toEqual(true);
-		});
-	});
-});
+import { when } from 'mobx';
+// import axios, fetch, or another HTTP implementation
+// import the file itself
+// import mock data
+
+describe('the file itself', () => {
+    describe('the method itself', () => {
+        it('successfully ', () => {
+            // noinspection JSAnnotator
+            // RequestService.post = jest.fn(() => Promise.resolve(PlanSummaryList));
+
+            //Constructor call to create an instance
+            
+            //Method call to test
+            //Assert values when promise is resolved based on mock data
+            when(
+                () => {
+                    expect();
+                },
+                () => {
+                    expect();
+                }
+            );
+        });
